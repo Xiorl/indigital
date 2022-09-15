@@ -1,0 +1,33 @@
+.button {
+    font-family: 'Gordita Regular';
+    font-size: 20px;
+
+    &#button-white {
+        color: #7925EF;
+        padding: 3px 18px 8px;
+        background: #FFFFFF;
+        border: 1px solid #7925EF;
+        border-radius: 30px;
+
+        &:hover {
+            cursor: pointer;
+            color: #FFFFFF;
+            background-color: #7925EF;
+        }
+    }
+
+    &#button-purple {
+        color: #FFFFFF;
+        padding: 3px 18px 8px;
+        background: #7925EF;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: #7925EF;
+
+        &:hover {
+            cursor: pointer;
+            color: #7925EF;
+            background-color: #FFFFFF;
+        }
+    }
+}

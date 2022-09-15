@@ -1,0 +1,35 @@
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* margin: 20px 50px; */
+ width: 100%;
+}
+
+.logo {
+ display: flex;
+ padding: 20px 30px;
+}
+
+.menu {
+    padding-right: 30px;
+}
+
+.menu a, .menu button {
+ margin: 0px 10px 0px 10px;
+}
+
+header a {
+    color: #7925EF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header h2 {
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    color: #434750;
+}
